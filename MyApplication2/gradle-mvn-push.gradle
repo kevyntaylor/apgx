@@ -1,0 +1,6 @@
+apply plugin: 'maven'
+
+project.version = '1.0'
+project.group = 'com.example.myapplication'
+
+

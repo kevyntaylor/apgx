@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        //jcenter() // Warning: this repository is going to shut down soon
+        maven {
+            url "https://s3-us-west-2.amazonaws.com/si-mobile-sdks/android/"
+        }
+    }
+}
+rootProject.name = "My Application"
+include ':app'
